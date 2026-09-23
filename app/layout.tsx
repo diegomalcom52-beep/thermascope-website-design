@@ -19,9 +19,6 @@ export const metadata: Metadata = {
     'computational nanotechnology',
     'materials science',
   ],
-  icons: {
-    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
-  },
 }
 
 export const viewport: Viewport = {
