@@ -76,9 +76,18 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} ThermaScope. All rights reserved.</p>
-          <p className="font-mono">Concepts shown are research &amp; exploratory prototypes.</p>
+        <div className="mt-12 border-t border-border pt-6">
+          <p className="max-w-3xl text-xs leading-relaxed text-muted-foreground/80">
+            Scientific micrographs on this site are authentic reference images courtesy of the
+            National Institute of Standards and Technology (NIST) and are used to illustrate the
+            science of each field. They do not depict ThermaScope products, experiments, facilities,
+            or intellectual property. Images labeled &ldquo;Concept Visualization&rdquo; are
+            conceptual renderings of future research directions.
+          </p>
+          <div className="mt-6 flex flex-col gap-2 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+            <p>© {new Date().getFullYear()} ThermaScope. All rights reserved.</p>
+            <p className="font-mono">Concepts shown are research &amp; exploratory prototypes.</p>
+          </div>
         </div>
       </div>
     </footer>

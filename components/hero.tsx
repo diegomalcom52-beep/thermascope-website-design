@@ -4,18 +4,18 @@ import { ParticleField } from './particle-field'
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
-      {/* layered scientific backdrop */}
+      {/* layered scientific backdrop — authentic SEM micrograph */}
       <div className="pointer-events-none absolute inset-0">
         <Image
-          src="/images/hero-lattice.png"
+          src="/images/nist-nanowires.jpg"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-30 radial-fade"
+          className="object-cover opacity-[0.18] radial-fade"
         />
         <div className="absolute inset-0 grid-lines radial-fade" />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/85 to-background" />
       </div>
 
       <ParticleField className="pointer-events-none absolute inset-0 h-full w-full opacity-70" />
@@ -67,6 +67,11 @@ export function Hero() {
             </a>
           </div>
         </div>
+
+        <p className="mt-16 font-mono text-[10px] uppercase tracking-[0.14em] text-muted-foreground/60">
+          Background: silicon nanowire array, scanning electron micrograph. Credit: NIST — external
+          scientific reference, not ThermaScope imagery.
+        </p>
       </div>
 
       {/* thin heat-sweep divider */}
