@@ -3,6 +3,7 @@ import { Hero } from '@/components/hero'
 import { TechnologyAreas } from '@/components/technology-areas'
 import { Research } from '@/components/research'
 import { Approach } from '@/components/approach'
+import { Contact } from '@/components/contact'
 import { SiteFooter } from '@/components/site-footer'
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
         <TechnologyAreas />
         <Research />
         <Approach />
+        <Contact />
       </main>
       <SiteFooter />
     </>

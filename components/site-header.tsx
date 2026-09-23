@@ -7,6 +7,7 @@ const NAV = [
   { label: 'Technology', href: '#technology' },
   { label: 'Research', href: '#research' },
   { label: 'Approach', href: '#approach' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export function SiteHeader() {
@@ -29,7 +30,7 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
         <a href="#top" className="flex items-center gap-2.5" aria-label="ThermaScope home">
-          <Logo className="h-7 w-7" />
+          <Logo className="h-9 w-9 rounded-sm" size={36} />
           <span className="text-[15px] font-semibold tracking-tight">
             Therma<span className="text-accent-cyan">Scope</span>
           </span>
@@ -48,10 +49,10 @@ export function SiteHeader() {
         </nav>
 
         <a
-          href="#research"
+          href="#contact"
           className="rounded-md border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent-cyan/60 hover:text-accent-cyan"
         >
-          Our Research
+          Get in Touch
         </a>
       </div>
     </header>
